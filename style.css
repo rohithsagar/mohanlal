@@ -1,22 +1,17 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin:0;
     padding: 0;
     font-family: sans-serif;
 }
-#banner{
+.banner{
     background: linear-gradient(rgba(0,0,0,0.2),#f9ea8f),url(images/mo.jpg);
     background-color: #f9ea8f;
- 
     background-size: cover;
     background-position: center;
     height: 100vh;
-
-}
-.logo{
-    width: 140px;
-    position: absolute;
-    top: 4%;
-    left: 10%;
 }
 .banner-text{
     text-align: center;
@@ -57,9 +52,145 @@
 }
 .banner-btn a:hover span{
     width: 100%;
-
 }
 .banner-btn a:hover{
     color: black;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.2),#f9ea25),url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 16%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding-top: 3%;
 
 }
+h3{
+    padding-left: 32%;
+    font-size: 39px;
+    color: #ffffff;
+
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    font-size: 100px;
+    color: #ffffff;
+}
+p{
+    color: #ffffff;
+    line-height: 32px;
+    font-size: 14px;
+}
+button{
+    width: 180px;
+    color: #000000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #ffffff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.card{
+    width: 240px;
+    height: 240px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 18px 28px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 10px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(images/mo2.jpg);
+}
+.card2{
+    background-image: url(images/mo3.jpg);
+}
+.card3{
+    background-image: url(images/mo10.webp);
+}
+.card4{
+    background-image: url(images/20t.jpg);
+}
+.card5{
+    background-image: url(images/ra.jpg);
+}
+.card6{
+    background-image: url(images/ki.jpg);
+}
+.card7{
+    background-image: url(images/mo7.jpg);
+}
+.card8{
+    background-image: url(images/va.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #ffffff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+
+
+}
+.banner-btn2{
+    margin: 90px auto 0;
+}
+.banner-btn2 a{
+    width: 250px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 15px 6px;
+    color: white;
+    border: .5px solid #ffffff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.banner-btn2 a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn2 a:hover span{
+    width: 100%;
+}
+.banner-btn2 a:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
